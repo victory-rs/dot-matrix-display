@@ -1,17 +1,17 @@
 {
-  "name": "fe-package-starter",
+  "name": "dot-matrix-display",
   "private": false,
   "version": "0.0.1",
-  "main": "./dist/fe-package-starter.umd.js",
-  "module": "./dist/fe-package-starter.es.js",
+  "main": "./dist/dot-matrix-display.umd.js",
+  "module": "./dist/dot-matrix-display.es.js",
   "files": [
     "dist",
     "src"
   ],
   "exports": {
     ".": {
-      "import": "./dist/fe-package-starter.es.js",
-      "require": "./dist/fe-package-starter.umd.js"
+      "import": "./dist/dot-matrix-display.es.js",
+      "require": "./dist/dot-matrix-display.umd.js"
     }
   },
   "scripts": {

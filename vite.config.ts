@@ -9,8 +9,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/lib/index.ts"),
-      name: "fe-package-starter",
-      fileName: (format) => `fe-package-starter.${format}.js`,
+      name: "dot-matrix-display",
+      fileName: (format) => `dot-matrix-display.${format}.js`,
     },
     rollupOptions: {
       external: ["react"],
